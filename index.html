@@ -3,166 +3,322 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <title>davcheng.com</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700" />
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
+
+
+    <div class="parallax-background-1">
+      <div class="intro-text">
+        <!-- Hello! -->
+        <p><i class="fi-arrow-down"></i></p>
       </div>
+
     </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
+
+    <div class="fixed-nav-menu">
+      <section class="container">
+        <section class="container, text-center, name">
+          <!-- <a id="nav-home" href="#">  -->
+            David D. Cheng
+          <!-- </a> -->
+        </section>
+        <section class="container, text-center">
+
+          <a id="nav-about" href="#">about</a>
+          |
+          <a id="nav-projects" href="#">projects</a>
+          |
+          <a id="nav-contact" href="#">contact</a>          
+          |
+          <a target="_blank" href="http://www.linkedin.com/in/davcheng">linkedin</a>
+
+        </section>
+      </section>
+    </div>
+
+    <div class="parallax-content-1">
+    </div>
+
+     <div id="about" class="section-marker">
+      </div>
+
+    <div class="parallax-content-2 about-me-container">
+
+      <div class="row">  
+        <div class="large-12 columns">
+          <hr class="styled-hr" width="100%">
+        </div>
+      </div>
+      <div class="row">
+        <div class="large-7 columns">
+            <div class="section-title">
+              About Me
             </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
+
+            <div class="section-content">
+              I am a traveling technology consultant hailing from the suburbs of Northern Virginia, right outside of Washington, DC. Most notably:
+              <ul>
+                <li>
+                  I have worked with federal, state, and commercial sector clients - specializing in software integration and eCommerce implementations - serving as a liason between business and technology.
+                </li>
+                <li>
+                  Although efficiency is one of my highest priorities, I have an abnormally high tolerance for bumper-to-bumper traffic. 
+                </li>
+                <li>
+                  Graduated with High Distinction from the University of Virginia with a B.S. in Systems Engineering. Go Hoos!
+                </li>
+                <li>
+                  The starting rotation for the '95 Atlanta Braves is my standard of excellence.
+                </li>
+                <li>
+                  Through 4 seasons as an 8th grade boys basketball coach, I sport an awful 14-24 record. However, the trajectory of my win totals (1, 2, 4, and 7) is astronomical. 
+                </li>
+              </ul>
             </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
+          </div> 
+          <div class="large-5 columns">
+            <img class="home-profile-pic-img" src="assets/profile-pic.png">          
           </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
+        </div>
+        <div class="row">  
+          <div class="large-12 columns">
+            <hr class="styled-hr" width="100%">
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+      <!--end of about-->
 
+<!--       <div class="parallax-background-2">
+      </div> -->
+      
+      <div id="projects" class="section-marker">
+      </div>
+      
+      <div class="parallax-content-3">
+
+        <div class="row">  
+          <div class="large-12 columns">
+            <hr class="styled-hr" width="100%">
+          </div>
+        </div>
+
+        <div class="projects-container">
+          <div class="row">
+            <div class="large-12 columns">
+              Projects
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-4 columns">
+              <a href="http://www.davidlovesmina.com" target="_blank">
+                <img class="section-grid-img" src="assets/projects/davidlovesmina.png">
+                <label>
+                  David and Mina
+                </label>
+                <div class="project-desc">
+                  <ul>
+                    <li>David and Mina's wedding site</li>
+                    <li>Built with Foundation, SASS</li>
+                    <li>Password-protected RSVP using md5 hash function (no db)</li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+
+            <div class="large-4 columns">
+              <a href="http://www.thoughtfulgiftgenerator.com" target="_blank">
+                <img class="section-grid-img" src="assets/projects/thoughtfulgiftgenerator.png">
+                <label>
+                  Thoughtful Gift Generator
+                </label>
+                <div class="project-desc">
+                  <ul>
+                    <li>Gift idea generation website</li>
+                    <li>Monetized through Amazon referrals links</li>
+                    <li>Built with Python/Django and Kraken Framework</li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="large-4 columns">
+              <a href="http://www.hopeforsure.com" target="_blank">
+                <img class="section-grid-img" src="assets/projects/hopeforsure.png">
+                <label>
+                  Hope for Sure
+                </label>
+                <div class="project-desc">
+                  <ul>
+                    <li>Christian encouragement image sharing site</li>
+                    <li>Crowdsourced content through user submitted posts</li>
+                    <li>Built with Python/Django</li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+          <div class="row">
+            <div class="large-4 columns">
+              <a href="http://www.juliusandesther.com" target="_blank">
+                <img class="section-grid-img" src="assets/projects/juliusandesther.png">
+                <label>
+                  Julius and Esther
+                </label>
+                <div class="project-desc">  
+                  <ul>
+                    <li>Julius and Esther's wedding website</li>
+                    <li>Password protected through md5 hash function</li>
+                    <li>Password "11.22.2013"</li>    
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="large-4 columns">
+              <a href="http://www.jamesandesther.com" target="_blank">
+                <img class="section-grid-img" src="assets/projects/jamesandesther.png">
+                <label>
+                  James and Esther
+                </label>
+                <div class="project-desc">
+                  <ul>
+                    <li>James and Esther's wedding website</li>
+                    <li>Animated JavaScript intro</li>
+                    <li>Asynch carousel photo album</li>            
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="large-4 columns">
+              <a href="http://appshopper.com/entertainment/pickup-pickup-truck" target="_blank">
+                <img class="section-grid-img" src="assets/projects/pickuppickuptruck.png">
+                <label>
+                  Pickup Pickup Truck
+                </label>
+                <div class="project-desc">
+                  <ul>
+                    <li>iOS App - Pickup lines from a Pickup Truck</li>
+                    <li>Google Admob and Advertising</li>
+                    <li>Over 400 downloads across 27 different countries on the iOS App Store</li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          </div>
+
+          <div class="row">
+            <div class="large-4 columns">
+              <a href="http://www.johnandmina.com" target="_blank">
+                <img class="section-grid-img" src="assets/projects/johnandmina.png">
+                <label>
+                  John and Mina
+                </label>
+                <div class="project-desc">
+                  <ul>
+                    <li>John and Mina's wedding website</li>
+                    <li>Pa</li>
+                    <li>Asynch carousel photo album</li>            
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="large-4 columns">
+              <a href="http://www.savethedate.davidlovesmina.com" target="_blank">
+                <img class="section-grid-img" src="assets/projects/dmsavethedate.png">
+                <label>
+                  David and Mina's Save the Date
+                </label>
+                <div class="project-desc">
+                  <ul>
+                    <li>David and Mina's Save the Date website</li>
+                    <li>Responsive Design</li>
+                    <li>Experimenting with CSS3 Transitions</li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+            <div class="large-4 columns">
+              <a href="http://financialgro.com" target="_blank">
+                <img class="section-grid-img" src="assets/projects/financialgro.png">
+                <label>
+                  Financialgro
+                </label>
+                <div class="project-desc">
+                  <ul>
+                    <li>Personal Finance Blog</li>
+                    <li>First Django/Python Project</li>          
+                    <li>First Personal Project</li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">  
+            <div class="large-12 columns">
+              <hr class="styled-hr" width="100%">
+            </div>
+          </div>
+        </div> 
+      </div>
+
+<!--       <div class="parallax-background-2">
+      </div> -->
+
+      <div id="contact" class="section-marker">
+      </div>
+
+      <div class="parallax-content-2 about-me-container">
+
+        <div class="row">  
+          <div class="large-12 columns">
+            <hr class="styled-hr" width="100%">
+          </div>
+        </div>
         <div class="row">
           <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
+              <div id="contact" class="section-title">
+                Contact Me
               </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
+              <div class="section-content">
+                <ul>
+                  <li>
+                    Connect with me on LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/davcheng">https://www.linkedin.com/in/davcheng</a>
+                  </li>                   
+                  <li>
+                    Email me: <a href="mailto:david@davcheng.com">david@davcheng.com</a>
+                  </li>
+
+                  <li>
+                    See what I'm browsing on Quora while waiting in line: <a href="https://www.quora.com/David-Cheng-23" target="_blank">https://www.quora.com/David-Cheng-23</a>
+                  </li>
+                  <li>
+                    Check out how productive (or unproductive) I've been on github: <a target="_blank" href="https://github.com/awsmdavid">https://github.com/awsmdavid</a>
+                  </li>                  
+                </ul>
+              </div>
+            </div> 
+          </div>
+          <div class="row">  
+            <div class="large-12 columns">
+              <hr class="styled-hr" width="100%">
+            </div>
+          </div>
         </div>
+
+      <div class="parallax-background-2">
       </div>
+        <!-- end parallax-->
     </div>
+
+  
+
+
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
