@@ -55,22 +55,33 @@
 // 	margin: 15px 0 0 0;
 // }
 
-.fixed-nav-menu{
+#fixed-nav-menu{
 	max-width: 100%;
 	position: fixed;
-	width: 100%;
+	// width: 100%;
 	top: 0px;
-	// padding: 50px;
-	// font-size: 20px;
 	background-color: #fff;
 	padding: 10px 0 15px 0;
 	opacity: .9;
 	z-index: 1000;
 }
 
-.grey-bg{
-  background: url(http://www.weebly.com/theme_browser/themes/approved/144970330681139381/files/dust.png?360111) fixed;
-  padding: 30px 0;
+
+.name{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.location-icon{
+	font-size: 18px;
+	position: fixed;
+	// top: 25px;
+	// right: 20px;
+	margin-top: 15px;
+}
+.bg-desc{
+	font-size: 14px;
 }
 
 //parallax
@@ -216,23 +227,6 @@ body {
 	width: 50%;
 	margin-left: 25%;
 	z-index: 1000;
-}
-
-
-.name{
-	font-weight: bold;
-	font-size: 20px;
-	text-align: center;
-}
-
-.location-icon{
-	font-size: 18px;
-	position: fixed;
-	top: 25px;
-	right: 20px;
-}
-.bg-desc{
-	font-size: 14px;
 }
 
 .footer{
