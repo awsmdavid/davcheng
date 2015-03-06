@@ -49,12 +49,14 @@ body {
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
+  opacity: .95;
 }
 
-/* line 112, ../scss/_settings.scss */
+/* line 115, ../scss/_settings.scss */
 .parallax-content-2 {
   background-color: #fff;
   z-index: 2;
+  opacity: 1;
   background-repeat: repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -63,7 +65,7 @@ body {
   width: 100%;
 }
 
-/* line 125, ../scss/_settings.scss */
+/* line 130, ../scss/_settings.scss */
 .parallax-background-2 {
   background: url("/assets/bg-photos/nats.png") no-repeat center transparent;
   z-index: 2;
@@ -77,7 +79,7 @@ body {
   width: 100%;
 }
 
-/* line 140, ../scss/_settings.scss */
+/* line 145, ../scss/_settings.scss */
 .parallax-content-3 {
   background-color: #fff;
   z-index: 1;
@@ -89,7 +91,21 @@ body {
   width: 100%;
 }
 
-/* line 152, ../scss/_settings.scss */
+/* line 157, ../scss/_settings.scss */
+.parallax-footer {
+  background-color: #fff;
+  z-index: 1;
+  opacity: .8;
+  background-repeat: repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  text-align: right;
+}
+
+/* line 171, ../scss/_settings.scss */
 .intro-text {
   font-size: 50px;
   color: #fff;
@@ -97,7 +113,7 @@ body {
   margin-top: 15%;
 }
 
-/* line 159, ../scss/_settings.scss */
+/* line 178, ../scss/_settings.scss */
 .parallax-content {
   max-width: 100%;
   position: relative;
@@ -107,20 +123,17 @@ body {
   background-color: #fff;
 }
 
-/* line 169, ../scss/_settings.scss */
+/* line 188, ../scss/_settings.scss */
 .section-marker {
   height: 70px;
 }
 
-/* line 174, ../scss/_settings.scss */
-.container {
-  max-width: 80em;
-  width: 88%;
-  margin-left: auto;
-  margin-right: auto;
+/* line 192, ../scss/_settings.scss */
+.section-content li, .project-desc li {
+  font-size: 14px;
 }
 
-/* line 181, ../scss/_settings.scss */
+/* line 198, ../scss/_settings.scss */
 .home-profile-pic-img {
   float: left;
   width: 50%;
@@ -128,24 +141,16 @@ body {
   z-index: 1000;
 }
 
-/* line 189, ../scss/_settings.scss */
+/* line 206, ../scss/_settings.scss */
 .name {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
 }
 
-/* line 196, ../scss/_settings.scss */
-footer {
-  position: fixed;
-  width: 99%;
-  bottom: 0;
-  font-size: 12px;
-  display: block;
+/* line 212, ../scss/_settings.scss */
+.footer {
   text-align: right;
-  float: right;
-  margin-right: 1%;
-  background-color: #F3F3F7;
 }
 
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
