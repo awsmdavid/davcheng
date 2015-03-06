@@ -103,9 +103,11 @@ body {
   background-size: cover;
   width: 100%;
   text-align: right;
+  font-size: 12px;
+  padding-right: 30px;
 }
 
-/* line 171, ../scss/_settings.scss */
+/* line 173, ../scss/_settings.scss */
 .intro-text {
   font-size: 50px;
   color: #fff;
@@ -113,7 +115,7 @@ body {
   margin-top: 15%;
 }
 
-/* line 178, ../scss/_settings.scss */
+/* line 180, ../scss/_settings.scss */
 .parallax-content {
   max-width: 100%;
   position: relative;
@@ -123,17 +125,17 @@ body {
   background-color: #fff;
 }
 
-/* line 188, ../scss/_settings.scss */
+/* line 190, ../scss/_settings.scss */
 .section-marker {
   height: 70px;
 }
 
-/* line 192, ../scss/_settings.scss */
+/* line 194, ../scss/_settings.scss */
 .section-content li, .project-desc li {
   font-size: 14px;
 }
 
-/* line 198, ../scss/_settings.scss */
+/* line 200, ../scss/_settings.scss */
 .home-profile-pic-img {
   float: left;
   width: 50%;
@@ -141,14 +143,14 @@ body {
   z-index: 1000;
 }
 
-/* line 206, ../scss/_settings.scss */
+/* line 208, ../scss/_settings.scss */
 .name {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
 }
 
-/* line 212, ../scss/_settings.scss */
+/* line 214, ../scss/_settings.scss */
 .footer {
   text-align: right;
 }
