@@ -81,17 +81,16 @@ body {
 	font-size: 20px;
 }
 
+// #bg-img{
+//     background: url("/assets/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
+// }
+
 .parallax-background-1 {
-    background: url("/assets/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
+	background: url("/assets/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
     top: 0px;
     z-index: -2;
 	// opacity: .2;
 	height: 700px;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-	background-size: cover;
 	position: fixed;
 	width: 100%;
 }
@@ -128,7 +127,7 @@ body {
 
 //contact
 .parallax-background-2 {
-    background: url("/assets/bg-photos/nats.png") no-repeat center transparent;
+    // background: url("/assets/bg-photos/nats.png") no-repeat center transparent;
     z-index: 2;
 	opacity: 1;
 	min-height: 620px;
@@ -186,9 +185,10 @@ body {
 	background-color: #fff;
 }              
 
-
+//mess with separation between content sections
 .section-marker{
-	height:70px;
+	height:20px;
+	margin-bottom: 50px;
 }
 
 .section-content li, .project-desc li{
@@ -198,21 +198,142 @@ body {
 //home
 
 .home-profile-pic-img {
-  float: left;
-  width: 50%;
-  margin-left: 25%;
-  z-index: 1000;
+	float: left;
+	width: 50%;
+	margin-left: 25%;
+	z-index: 1000;
 }
 
 
 .name{
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.location-icon{
+	font-size: 18px;
+	position: fixed;
+	top: 25px;
+	right: 20px;
+}
+.bg-desc{
+	font-size: 14px;
 }
 
 .footer{
 	text-align:right;
+}
+
+//begin images
+
+.bg-sunrise{
+    background: url("/assets/bg-photos/sunrise-clouds.png") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.bg-hood{
+    background: url("/assets/bg-photos/mt-hood.png") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-nats{
+    background: url("/assets/bg-photos/nats.png") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-oc{
+    background: url("/assets/bg-photos/ocean-city.jpg") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-chelsea-pier{
+    background: url("/assets/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-portland{
+    background: url("/assets/bg-photos/portland.jpg") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-lucerne{
+    background: url("/assets/bg-photos/lucerne.jpg") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-bahama-sunset{
+    background: url("/assets/bg-photos/bahama-sunset.png") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-eiffel{
+    background: url("/assets/bg-photos/eiffel.png") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-capitol{
+    background: url("/assets/bg-photos/capitol.png") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-jap-garden{
+    background: url("/assets/bg-photos/japanese-garden.jpg") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+.bg-london-bridge{
+    background: url("/assets/bg-photos/london-bridge.jpg") no-repeat center transparent;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
 }
 
 

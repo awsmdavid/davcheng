@@ -23,22 +23,17 @@ body {
   font-size: 20px;
 }
 
-/* line 84, ../scss/_settings.scss */
+/* line 88, ../scss/_settings.scss */
 .parallax-background-1 {
   background: url("/assets/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
   top: 0px;
   z-index: -2;
   height: 700px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   position: fixed;
   width: 100%;
 }
 
-/* line 99, ../scss/_settings.scss */
+/* line 98, ../scss/_settings.scss */
 .parallax-content-1 {
   z-index: 1;
   height: 620px;
@@ -52,7 +47,7 @@ body {
   opacity: .95;
 }
 
-/* line 115, ../scss/_settings.scss */
+/* line 114, ../scss/_settings.scss */
 .parallax-content-2 {
   background-color: #fff;
   z-index: 2;
@@ -65,9 +60,8 @@ body {
   width: 100%;
 }
 
-/* line 130, ../scss/_settings.scss */
+/* line 129, ../scss/_settings.scss */
 .parallax-background-2 {
-  background: url("/assets/bg-photos/nats.png") no-repeat center transparent;
   z-index: 2;
   opacity: 1;
   min-height: 620px;
@@ -79,7 +73,7 @@ body {
   width: 100%;
 }
 
-/* line 145, ../scss/_settings.scss */
+/* line 144, ../scss/_settings.scss */
 .parallax-content-3 {
   background-color: #fff;
   z-index: 1;
@@ -91,7 +85,7 @@ body {
   width: 100%;
 }
 
-/* line 157, ../scss/_settings.scss */
+/* line 156, ../scss/_settings.scss */
 .parallax-footer {
   background-color: #fff;
   z-index: 1;
@@ -107,7 +101,7 @@ body {
   padding-right: 30px;
 }
 
-/* line 173, ../scss/_settings.scss */
+/* line 172, ../scss/_settings.scss */
 .intro-text {
   font-size: 50px;
   color: #fff;
@@ -115,7 +109,7 @@ body {
   margin-top: 15%;
 }
 
-/* line 180, ../scss/_settings.scss */
+/* line 179, ../scss/_settings.scss */
 .parallax-content {
   max-width: 100%;
   position: relative;
@@ -125,9 +119,10 @@ body {
   background-color: #fff;
 }
 
-/* line 190, ../scss/_settings.scss */
+/* line 189, ../scss/_settings.scss */
 .section-marker {
-  height: 70px;
+  height: 20px;
+  margin-bottom: 50px;
 }
 
 /* line 194, ../scss/_settings.scss */
@@ -151,8 +146,141 @@ body {
 }
 
 /* line 214, ../scss/_settings.scss */
+.location-icon {
+  font-size: 18px;
+  position: fixed;
+  top: 25px;
+  right: 20px;
+}
+
+/* line 220, ../scss/_settings.scss */
+.bg-desc {
+  font-size: 14px;
+}
+
+/* line 224, ../scss/_settings.scss */
 .footer {
   text-align: right;
+}
+
+/* line 230, ../scss/_settings.scss */
+.bg-sunrise {
+  background: url("/assets/bg-photos/sunrise-clouds.png") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 240, ../scss/_settings.scss */
+.bg-hood {
+  background: url("/assets/bg-photos/mt-hood.png") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 249, ../scss/_settings.scss */
+.bg-nats {
+  background: url("/assets/bg-photos/nats.png") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 258, ../scss/_settings.scss */
+.bg-oc {
+  background: url("/assets/bg-photos/ocean-city.jpg") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 267, ../scss/_settings.scss */
+.bg-chelsea-pier {
+  background: url("/assets/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 276, ../scss/_settings.scss */
+.bg-portland {
+  background: url("/assets/bg-photos/portland.jpg") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 285, ../scss/_settings.scss */
+.bg-lucerne {
+  background: url("/assets/bg-photos/lucerne.jpg") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 294, ../scss/_settings.scss */
+.bg-bahama-sunset {
+  background: url("/assets/bg-photos/bahama-sunset.png") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 303, ../scss/_settings.scss */
+.bg-eiffel {
+  background: url("/assets/bg-photos/eiffel.png") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 312, ../scss/_settings.scss */
+.bg-capitol {
+  background: url("/assets/bg-photos/capitol.png") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 321, ../scss/_settings.scss */
+.bg-jap-garden {
+  background: url("/assets/bg-photos/japanese-garden.jpg") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 330, ../scss/_settings.scss */
+.bg-london-bridge {
+  background: url("/assets/bg-photos/london-bridge.jpg") no-repeat center transparent;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */

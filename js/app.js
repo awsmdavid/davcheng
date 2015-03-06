@@ -27,13 +27,12 @@ $(document).ready(function() {
 	'bg-hood',
 	'bg-chelsea-pier',
 	'bg-nats',
-	'bg-portland',
-	'bg-bahama-sunset',
-	'bg-eiffel',
-	'bg-capitol',
-	'bg-lucerne',
-	'bg-jap-garden',
-	'bg-london-bridge'
+	// 'bg-portland',
+	// 'bg-bahama-sunset',
+	// 'bg-eiffel',
+	// 'bg-capitol',
+	// 'bg-lucerne',
+	// 'bg-london-bridge'
 	];
 	
 	//background titles
@@ -56,20 +55,22 @@ $(document).ready(function() {
 	
 	/*generate random start background*/
 	var random_int=Math.floor(Math.random()*(bg_img.length-1));
-	$('#background-image').removeClass();
-	$('#background-image').addClass(bg_img[random_int]);
+	$('#bg-img').removeClass();
+	$('#bg-img').addClass(bg_img[random_int]);
+	$('#bg-img').addClass("parallax-background-1");
 	// var bg_selected = bg_img[random_int];
-	$('#background-image').title = bg_title[bg_img[random_int]];
+	$('#bg-img').title = bg_title[bg_img[random_int]];
 	$('.bg-desc').html(bg_title[bg_img[random_int]]);
 
 
 	/*change backgrounds on click*/
 	var x=random_int+1;
-    $('#home-icon').click(function(){
+    $('#refresh-img').click(function(){
 
-		$('#background-image').removeClass();
-		$('#background-image').addClass(bg_img[x]);
-		$('#background-image').title = bg_title[bg_img[x]];
+		$('#bg-img').removeClass();
+		$('#bg-img').addClass(bg_img[x]);
+		$('#bg-img').addClass("parallax-background-1");
+		$('#bg-img').title = bg_title[bg_img[x]];
 		$('.bg-desc').html(bg_title[bg_img[x]]);
 		if(x<bg_img.length-1){
 			x+=1;
