@@ -140,6 +140,10 @@ body {
 	width: 100%;
 }
 
+// li{
+// 	line-spacing: 10px;
+// }
+
 //projects
 .parallax-content-3 {
 	background-color: #fff;
@@ -187,13 +191,23 @@ body {
 
 //mess with separation between content sections
 .section-marker{
-	height:20px;
-	margin-bottom: 50px;
+	//70: (height 20; margin 50) for perfect alignment
+	// height: 20px;
+	// margin-bottom: 50px;
+
+	//perfect spacing
+	height:70px;
+	margin-bottom: 70px;
 }
 
-.section-content li, .project-desc li{
+.section-content , .section-content li, .project-desc li{
 	font-size:14px;
 }
+
+.section-content li{
+	margin: 3px 0 3px 0;
+}
+
 
 //home
 

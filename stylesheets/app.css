@@ -73,7 +73,7 @@ body {
   width: 100%;
 }
 
-/* line 144, ../scss/_settings.scss */
+/* line 148, ../scss/_settings.scss */
 .parallax-content-3 {
   background-color: #fff;
   z-index: 1;
@@ -85,7 +85,7 @@ body {
   width: 100%;
 }
 
-/* line 156, ../scss/_settings.scss */
+/* line 160, ../scss/_settings.scss */
 .parallax-footer {
   background-color: #fff;
   z-index: 1;
@@ -101,7 +101,7 @@ body {
   padding-right: 30px;
 }
 
-/* line 172, ../scss/_settings.scss */
+/* line 176, ../scss/_settings.scss */
 .intro-text {
   font-size: 50px;
   color: #fff;
@@ -109,7 +109,7 @@ body {
   margin-top: 15%;
 }
 
-/* line 179, ../scss/_settings.scss */
+/* line 183, ../scss/_settings.scss */
 .parallax-content {
   max-width: 100%;
   position: relative;
@@ -119,18 +119,23 @@ body {
   background-color: #fff;
 }
 
-/* line 189, ../scss/_settings.scss */
+/* line 193, ../scss/_settings.scss */
 .section-marker {
-  height: 20px;
-  margin-bottom: 50px;
+  height: 70px;
+  margin-bottom: 70px;
 }
 
-/* line 194, ../scss/_settings.scss */
-.section-content li, .project-desc li {
+/* line 203, ../scss/_settings.scss */
+.section-content, .section-content li, .project-desc li {
   font-size: 14px;
 }
 
-/* line 200, ../scss/_settings.scss */
+/* line 207, ../scss/_settings.scss */
+.section-content li {
+  margin: 3px 0 3px 0;
+}
+
+/* line 214, ../scss/_settings.scss */
 .home-profile-pic-img {
   float: left;
   width: 50%;
@@ -138,14 +143,14 @@ body {
   z-index: 1000;
 }
 
-/* line 208, ../scss/_settings.scss */
+/* line 222, ../scss/_settings.scss */
 .name {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
 }
 
-/* line 214, ../scss/_settings.scss */
+/* line 228, ../scss/_settings.scss */
 .location-icon {
   font-size: 18px;
   position: fixed;
@@ -153,17 +158,17 @@ body {
   right: 20px;
 }
 
-/* line 220, ../scss/_settings.scss */
+/* line 234, ../scss/_settings.scss */
 .bg-desc {
   font-size: 14px;
 }
 
-/* line 224, ../scss/_settings.scss */
+/* line 238, ../scss/_settings.scss */
 .footer {
   text-align: right;
 }
 
-/* line 230, ../scss/_settings.scss */
+/* line 244, ../scss/_settings.scss */
 .bg-sunrise {
   background: url("/assets/bg-photos/sunrise-clouds.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -173,7 +178,7 @@ body {
   background-size: cover;
 }
 
-/* line 240, ../scss/_settings.scss */
+/* line 254, ../scss/_settings.scss */
 .bg-hood {
   background: url("/assets/bg-photos/mt-hood.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -183,7 +188,7 @@ body {
   background-size: cover;
 }
 
-/* line 249, ../scss/_settings.scss */
+/* line 263, ../scss/_settings.scss */
 .bg-nats {
   background: url("/assets/bg-photos/nats.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -193,7 +198,7 @@ body {
   background-size: cover;
 }
 
-/* line 258, ../scss/_settings.scss */
+/* line 272, ../scss/_settings.scss */
 .bg-oc {
   background: url("/assets/bg-photos/ocean-city.jpg") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -203,7 +208,7 @@ body {
   background-size: cover;
 }
 
-/* line 267, ../scss/_settings.scss */
+/* line 281, ../scss/_settings.scss */
 .bg-chelsea-pier {
   background: url("/assets/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -213,7 +218,7 @@ body {
   background-size: cover;
 }
 
-/* line 276, ../scss/_settings.scss */
+/* line 290, ../scss/_settings.scss */
 .bg-portland {
   background: url("/assets/bg-photos/portland.jpg") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -223,7 +228,7 @@ body {
   background-size: cover;
 }
 
-/* line 285, ../scss/_settings.scss */
+/* line 299, ../scss/_settings.scss */
 .bg-lucerne {
   background: url("/assets/bg-photos/lucerne.jpg") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -233,7 +238,7 @@ body {
   background-size: cover;
 }
 
-/* line 294, ../scss/_settings.scss */
+/* line 308, ../scss/_settings.scss */
 .bg-bahama-sunset {
   background: url("/assets/bg-photos/bahama-sunset.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -243,7 +248,7 @@ body {
   background-size: cover;
 }
 
-/* line 303, ../scss/_settings.scss */
+/* line 317, ../scss/_settings.scss */
 .bg-eiffel {
   background: url("/assets/bg-photos/eiffel.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -253,7 +258,7 @@ body {
   background-size: cover;
 }
 
-/* line 312, ../scss/_settings.scss */
+/* line 326, ../scss/_settings.scss */
 .bg-capitol {
   background: url("/assets/bg-photos/capitol.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -263,7 +268,7 @@ body {
   background-size: cover;
 }
 
-/* line 321, ../scss/_settings.scss */
+/* line 335, ../scss/_settings.scss */
 .bg-jap-garden {
   background: url("/assets/bg-photos/japanese-garden.jpg") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -273,7 +278,7 @@ body {
   background-size: cover;
 }
 
-/* line 330, ../scss/_settings.scss */
+/* line 344, ../scss/_settings.scss */
 .bg-london-bridge {
   background: url("/assets/bg-photos/london-bridge.jpg") no-repeat center transparent;
   background-repeat: no-repeat;
