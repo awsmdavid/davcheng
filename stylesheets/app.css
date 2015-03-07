@@ -21,21 +21,24 @@
   font-size: 18px;
   position: fixed;
   margin-top: 15px;
+  vertical-align: text-top;
+  text-align: right;
 }
 
-/* line 83, ../scss/_settings.scss */
+/* line 85, ../scss/_settings.scss */
 .bg-desc {
   font-size: 14px;
+  vertical-align: text-top;
 }
 
-/* line 89, ../scss/_settings.scss */
+/* line 92, ../scss/_settings.scss */
 body {
   font-family: "Open Sans" sans-serif !important;
   font-weight: 200;
   font-size: 20px;
 }
 
-/* line 99, ../scss/_settings.scss */
+/* line 102, ../scss/_settings.scss */
 .parallax-background-1 {
   background: url("/assets/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
   top: 0px;
@@ -45,7 +48,7 @@ body {
   width: 100%;
 }
 
-/* line 109, ../scss/_settings.scss */
+/* line 112, ../scss/_settings.scss */
 .parallax-content-1 {
   z-index: 1;
   height: 620px;
@@ -59,7 +62,7 @@ body {
   opacity: .95;
 }
 
-/* line 125, ../scss/_settings.scss */
+/* line 128, ../scss/_settings.scss */
 .parallax-content-2 {
   background-color: #fff;
   z-index: 2;
@@ -72,7 +75,7 @@ body {
   width: 100%;
 }
 
-/* line 140, ../scss/_settings.scss */
+/* line 143, ../scss/_settings.scss */
 .parallax-background-2 {
   z-index: 2;
   opacity: 1;
@@ -85,7 +88,7 @@ body {
   width: 100%;
 }
 
-/* line 159, ../scss/_settings.scss */
+/* line 162, ../scss/_settings.scss */
 .parallax-content-3 {
   background-color: #fff;
   z-index: 1;
@@ -97,7 +100,7 @@ body {
   width: 100%;
 }
 
-/* line 171, ../scss/_settings.scss */
+/* line 174, ../scss/_settings.scss */
 .parallax-footer {
   background-color: #fff;
   z-index: 1;
@@ -113,7 +116,7 @@ body {
   padding-right: 30px;
 }
 
-/* line 187, ../scss/_settings.scss */
+/* line 190, ../scss/_settings.scss */
 .intro-text {
   font-size: 50px;
   color: #fff;
@@ -121,7 +124,7 @@ body {
   margin-top: 15%;
 }
 
-/* line 194, ../scss/_settings.scss */
+/* line 197, ../scss/_settings.scss */
 .parallax-content {
   max-width: 100%;
   position: relative;
@@ -131,23 +134,23 @@ body {
   background-color: #fff;
 }
 
-/* line 204, ../scss/_settings.scss */
+/* line 207, ../scss/_settings.scss */
 .section-marker {
   height: 70px;
   margin-bottom: 70px;
 }
 
-/* line 214, ../scss/_settings.scss */
+/* line 217, ../scss/_settings.scss */
 .section-content, .section-content li, .project-desc li {
   font-size: 14px;
 }
 
-/* line 218, ../scss/_settings.scss */
+/* line 221, ../scss/_settings.scss */
 .section-content li {
   margin: 3px 0 3px 0;
 }
 
-/* line 225, ../scss/_settings.scss */
+/* line 228, ../scss/_settings.scss */
 .home-profile-pic-img {
   float: left;
   width: 50%;
@@ -155,12 +158,12 @@ body {
   z-index: 1000;
 }
 
-/* line 232, ../scss/_settings.scss */
+/* line 235, ../scss/_settings.scss */
 .footer {
   text-align: right;
 }
 
-/* line 238, ../scss/_settings.scss */
+/* line 241, ../scss/_settings.scss */
 .bg-sunrise {
   background: url("/assets/bg-photos/sunrise-clouds.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -170,7 +173,7 @@ body {
   background-size: cover;
 }
 
-/* line 248, ../scss/_settings.scss */
+/* line 251, ../scss/_settings.scss */
 .bg-hood {
   background: url("/assets/bg-photos/mt-hood.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -180,7 +183,7 @@ body {
   background-size: cover;
 }
 
-/* line 257, ../scss/_settings.scss */
+/* line 260, ../scss/_settings.scss */
 .bg-nats {
   background: url("/assets/bg-photos/nats.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -190,7 +193,7 @@ body {
   background-size: cover;
 }
 
-/* line 266, ../scss/_settings.scss */
+/* line 269, ../scss/_settings.scss */
 .bg-chelsea-pier {
   background: url("/assets/bg-photos/chelsea-pier.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -200,7 +203,7 @@ body {
   background-size: cover;
 }
 
-/* line 275, ../scss/_settings.scss */
+/* line 278, ../scss/_settings.scss */
 .bg-portland {
   background: url("/assets/bg-photos/portland.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -210,7 +213,7 @@ body {
   background-size: cover;
 }
 
-/* line 284, ../scss/_settings.scss */
+/* line 287, ../scss/_settings.scss */
 .bg-hope-gallery {
   background: url("/assets/bg-photos/hopegallery.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -220,7 +223,7 @@ body {
   background-size: cover;
 }
 
-/* line 293, ../scss/_settings.scss */
+/* line 296, ../scss/_settings.scss */
 .bg-seattle {
   background: url("/assets/bg-photos/seattle.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -230,7 +233,7 @@ body {
   background-size: cover;
 }
 
-/* line 302, ../scss/_settings.scss */
+/* line 305, ../scss/_settings.scss */
 .bg-sf-bay {
   background: url("/assets/bg-photos/sf-bay.png") no-repeat center transparent;
   background-repeat: no-repeat;
@@ -240,7 +243,7 @@ body {
   background-size: cover;
 }
 
-/* line 311, ../scss/_settings.scss */
+/* line 314, ../scss/_settings.scss */
 .bg-toronto {
   background: url("/assets/bg-photos/toronto.png") no-repeat center transparent;
   background-repeat: no-repeat;
