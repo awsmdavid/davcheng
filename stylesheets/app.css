@@ -150,11 +150,6 @@ body {
   margin: 3px 0 3px 0;
 }
 
-/* line 225, ../scss/_settings.scss */
-img .section-grid-img:hover {
-  opacity: .8;
-}
-
 /* line 231, ../scss/_settings.scss */
 .home-profile-pic-img {
   float: left;
