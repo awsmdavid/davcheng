@@ -228,15 +228,20 @@ body {
 
 .section-grid-img:hover{
 	opacity: .8;
+	// border: 1px solid #F5F5F5;
+	// margin: -1px -1px 1px -1px;
 }
 
 //home
 
 .home-profile-pic-img {
-	float: left;
-	width: 50%;
-	margin-left: 25%;
+	// float: left;
+	width: 80%;
+	// margin-left: 25%;
 	z-index: 1000;
+	margin:0 auto; 
+	display: block;
+	padding-top:10%;
 }
 
 .footer{
